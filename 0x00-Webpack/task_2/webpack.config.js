@@ -19,8 +19,12 @@ module: {
         },
         { 
           test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+          use: [
+            "fileloader",
+            {
+              loader: 'image-webpack-loader',
+            }],
           type: 'asset/resource',
-          loader: 'image-webpack-loader'
         },
       ]
     }
