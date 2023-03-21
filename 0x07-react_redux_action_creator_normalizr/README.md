@@ -1,0 +1,7 @@
+- Normalizr’s purpose and use
+- Schemas and normalization of nested JSON
+- Core concepts of Redux
+- Redux actions
+- Redux action creators
+- Async actions in Redux
+- Writin tests for Redux
