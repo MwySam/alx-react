@@ -1,7 +1,6 @@
 import { $ } from "jquery";
 
-document.write = ("<p>Holberton Dashboard");
-document.write = ("<p>Dashboard data for the students");
-document.write = ("<p>Copyright - Holberton School");
+document.write = ("Holberton Dashboard");
+document.write = ("Dashboard data for the students");
+document.write = (" Copyright - Holberton School");
 
-$(document.ready)
